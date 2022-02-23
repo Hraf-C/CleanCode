@@ -1,11 +1,12 @@
 # Clean Code - Masterclass
 
-Welcome ! This repository is a series of C++ projects, submitted in order to respond to the assignments of a class -clean code - leaded by @JulesFouchy
+Welcome ! This repository is a series of C++ projects, submitted in order to respond to the assignments of a Masterclass **Clean Code** leaded by [Jules Fouchy](https://github.com/JulesFouchy) 
 
-## 1997-06: ECMAScript 1
+## 09-02_2022 : TP1
+[x] Install a VScode and the necessary packages (for MacOS) .
+[x] Download the simple_code provided and test it .result : -hello world- apears after compiling .
+[x] Understanding Git .
+[x] Create a repository .
 
-First edition.
+## 16-02_2022 : TP2
 
-## 1998-06: ECMAScript 2
-
-Editorial changes to keep the specification fully aligned with ISO/IEC 16262 international standard.
