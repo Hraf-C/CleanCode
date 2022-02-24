@@ -15,5 +15,5 @@ This repository is a series of C++ projects, submitted in order to respond to th
 - [x] Read and understand the two lessons **Naming** and **Stack vs Heap** .
 
 ## 23-02_2022 : TP3
-- [x] Making everthing ready for TPs exercises (TP template, Repository ...) .
+- [x] Making everthing ready for TPs exercises (TP template,Git repo...) .
 - [x] Understanding writing with **Markdown** in order to write a clear Readme that i will be using to follow my progress and share it with my tutors .
