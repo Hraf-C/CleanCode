@@ -16,4 +16,4 @@ This repository is a series of C++ projects, submitted in order to respond to th
 
 ## 23-02_2022 : TP3
 - [x] Making everthing ready for TPs exercises (TP template,Git repo...) .
-- [x] Understand writing with **Markdown** in order to write a clear Readme that i will be using to follow my progress and share it with my tutors .
+- [x] Understand writing with **Markdown** in order to write a clear Readme that i will be using to follow my progress and share it with my tutors.
