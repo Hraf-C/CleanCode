@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/achraflemghari/Documents/IMAC/imac 2/S4/CPP/Projects/gits/CleanCode/src/guess_number.cpp" "CMakeFiles/SimpleCpp.dir/src/guess_number.cpp.o" "gcc" "CMakeFiles/SimpleCpp.dir/src/guess_number.cpp.o.d"
   "/Users/achraflemghari/Documents/IMAC/imac 2/S4/CPP/Projects/gits/CleanCode/src/main.cpp" "CMakeFiles/SimpleCpp.dir/src/main.cpp.o" "gcc" "CMakeFiles/SimpleCpp.dir/src/main.cpp.o.d"
   )
 

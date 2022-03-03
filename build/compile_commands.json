@@ -1,6 +1,11 @@
 [
 {
   "directory": "/Users/achraflemghari/Documents/IMAC/imac 2/S4/CPP/Projects/gits/CleanCode/build",
+  "command": "/usr/bin/clang++  -I\"/Users/achraflemghari/Documents/IMAC/imac 2/S4/CPP/Projects/gits/CleanCode/src\" -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -Werror -Wall -Wextra -Wpedantic -pedantic-errors -std=gnu++17 -o CMakeFiles/SimpleCpp.dir/src/guess_number.cpp.o -c \"/Users/achraflemghari/Documents/IMAC/imac 2/S4/CPP/Projects/gits/CleanCode/src/guess_number.cpp\"",
+  "file": "/Users/achraflemghari/Documents/IMAC/imac 2/S4/CPP/Projects/gits/CleanCode/src/guess_number.cpp"
+},
+{
+  "directory": "/Users/achraflemghari/Documents/IMAC/imac 2/S4/CPP/Projects/gits/CleanCode/build",
   "command": "/usr/bin/clang++  -I\"/Users/achraflemghari/Documents/IMAC/imac 2/S4/CPP/Projects/gits/CleanCode/src\" -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -Werror -Wall -Wextra -Wpedantic -pedantic-errors -std=gnu++17 -o CMakeFiles/SimpleCpp.dir/src/main.cpp.o -c \"/Users/achraflemghari/Documents/IMAC/imac 2/S4/CPP/Projects/gits/CleanCode/src/main.cpp\"",
   "file": "/Users/achraflemghari/Documents/IMAC/imac 2/S4/CPP/Projects/gits/CleanCode/src/main.cpp"
 }
