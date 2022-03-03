@@ -4,7 +4,6 @@
 
 int main()
 {
-    std::cout << "Hello World\n";
     guess_number();
     return 0;
 }

@@ -81,6 +81,4 @@ void guess_number()
             finished = true;
             }
     }
-    
-
-}
+    }
