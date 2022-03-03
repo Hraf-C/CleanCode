@@ -36,24 +36,25 @@ int get_choice( )
 int game_level()
 {
     std::cout << "Choose from 1 to 3 how lucky you think you are today : \n 1-Lucky \t 2-Very lucky \t 3-God of luck "<< std::endl ;
-    int choice=-1 ;
+    int choice,max_to_guess=100;
     choice=get_choice();
     
-   while (choice>0)
-   {
-    switch(choice) {
+   switch(choice) {
   case 1:
-    return 10;
+    max_to_guess=10;
+    break;
   case 2:
-    return 50;
+    max_to_guess=50;
+    break;
   case 3:
-    return 100;
+    max_to_guess=100;
+    break;
   default:
 		std::cout << "invalid choice !"<< std::endl ;
-		return ;
-    }
-    } 
- return choice;
+		game_level() ;
+    break;
+}
+ return max_to_guess;
    
 }
 
