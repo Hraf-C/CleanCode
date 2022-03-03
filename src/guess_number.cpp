@@ -2,8 +2,6 @@
 #include <iostream>
 #include <random>
 #include <iomanip>
-#include <memory>
-
 
 int rand(int min, int max)
 {
@@ -11,10 +9,10 @@ int rand(int min, int max)
     std::uniform_int_distribution<int>  distribution{min, max};
     return distribution(generator);
 }
-template<typename T>
-void get_choice(const T& choice)
+
+int get_choice( )
 {
-    T choice ;
+    int choice ;
     std::cout << "- Enter a Choice: ";
     std::cin >> std::setw(1) >> choice ;
 
@@ -33,30 +31,27 @@ void get_choice(const T& choice)
     std::cin.clear();
     std::cin.ignore(INT_MAX,'\n');
 
+    return choice;
 }
 int game_level()
 {
     std::cout << "Choose from 1 to 3 how lucky you think you are today : \n 1-Lucky \t 2-Very lucky \t 3-God of luck "<< std::endl ;
-    int choice=0 ;
-    get_choice(choice);
-    int choice=0 ;
+    int choice=-1 ;
+    choice=get_choice();
+    
    while (choice>0)
    {
     switch(choice) {
   case 1:
-    choice=10;
-    break;
+    return 10;
   case 2:
-    choice=50;
-    break;
+    return 50;
   case 3:
-    choice=100;
-    break;
+    return 100;
   default:
 		std::cout << "invalid choice !"<< std::endl ;
-		break;
+		return ;
     }
-     get_choice(choice)
     } 
  return choice;
    
