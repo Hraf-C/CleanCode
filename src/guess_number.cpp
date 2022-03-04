@@ -14,7 +14,7 @@ int get_choice( )
 {
     int choice ;
     std::cout << "- Enter a Choice: ";
-    std::cin >> std::setw(1) >> choice ;
+    std::cin >> std::setw(1) >> choice ; //take only first number and ignoring everything after space
 
     //Error check
     while (!std::cin.good())
@@ -33,20 +33,21 @@ int get_choice( )
 
     return choice;
 }
+//check if player choice is in the range of the generated random number 
 void option_control(int min,int max,int player_choice)
 {
     if (player_choice < min || player_choice > max) {
             std::cout << "Out of the range of the game ! Remamber the correct number is between " << min<<" and "<<max<< std::endl;
         }
 }
-
+//let the player choose how hard the game they want to play
 int game_level()
 {
     bool valid_choice = false;
     int choice,max_to_guess=100;
     while (!valid_choice) {
     std::cout << "Choose from 1 to 3 how lucky you think you are today : \n 1-Lucky \t 2-Very lucky \t 3-God of luck "<< std::endl ;
-    choice=get_choice();
+    choice=get_choice(); //input check 
     
     
         switch(choice) {
@@ -71,8 +72,6 @@ int game_level()
  return max_to_guess;
    
 }
-
-
 
 
 void guess_number()
