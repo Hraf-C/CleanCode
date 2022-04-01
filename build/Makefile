@@ -130,6 +130,30 @@ SimpleCpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/build
 .PHONY : SimpleCpp/fast
 
+src/common.o: src/common.cpp.o
+.PHONY : src/common.o
+
+# target to build an object file
+src/common.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/common.cpp.o
+.PHONY : src/common.cpp.o
+
+src/common.i: src/common.cpp.i
+.PHONY : src/common.i
+
+# target to preprocess a source file
+src/common.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/common.cpp.i
+.PHONY : src/common.cpp.i
+
+src/common.s: src/common.cpp.s
+.PHONY : src/common.s
+
+# target to generate assembly for a file
+src/common.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/common.cpp.s
+.PHONY : src/common.cpp.s
+
 src/guess_number.o: src/guess_number.cpp.o
 .PHONY : src/guess_number.o
 
@@ -153,6 +177,30 @@ src/guess_number.s: src/guess_number.cpp.s
 src/guess_number.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/guess_number.cpp.s
 .PHONY : src/guess_number.cpp.s
+
+src/hangman.o: src/hangman.cpp.o
+.PHONY : src/hangman.o
+
+# target to build an object file
+src/hangman.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/hangman.cpp.o
+.PHONY : src/hangman.cpp.o
+
+src/hangman.i: src/hangman.cpp.i
+.PHONY : src/hangman.i
+
+# target to preprocess a source file
+src/hangman.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/hangman.cpp.i
+.PHONY : src/hangman.cpp.i
+
+src/hangman.s: src/hangman.cpp.s
+.PHONY : src/hangman.s
+
+# target to generate assembly for a file
+src/hangman.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/hangman.cpp.s
+.PHONY : src/hangman.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -187,9 +235,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... SimpleCpp"
+	@echo "... src/common.o"
+	@echo "... src/common.i"
+	@echo "... src/common.s"
 	@echo "... src/guess_number.o"
 	@echo "... src/guess_number.i"
 	@echo "... src/guess_number.s"
+	@echo "... src/hangman.o"
+	@echo "... src/hangman.i"
+	@echo "... src/hangman.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

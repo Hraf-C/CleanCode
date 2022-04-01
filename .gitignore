@@ -28,3 +28,8 @@ build/CMakeFiles/SimpleCpp.dir/src/main.cpp.o
 build/CMakeFiles/SimpleCpp.dir/src/main.cpp.o.d
 
 build/
+build/.DS_Store
+build/CMakeFiles/CMakeOutput.log
+build/CMakeFiles/3.22.2/CMakeDetermineCompilerABI_C.bin
+build/CMakeFiles/3.22.2/CMakeDetermineCompilerABI_CXX.bin
+build/CMakeFiles/SimpleCpp.dir/src/guess_number.cpp.o
