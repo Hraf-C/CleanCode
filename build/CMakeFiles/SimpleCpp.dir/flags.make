@@ -6,7 +6,7 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I"/Users/achraflemghari/Documents/IMAC/imac 2/S4/CPP/Projects/gits/CleanCode/src"
 
-CXX_FLAGSarm64 = -g -arch arm64 -Werror -Wall -Wextra -Wpedantic -pedantic-errors -std=gnu++17
+CXX_FLAGSarm64 = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -Werror -Wall -Wextra -Wpedantic -pedantic-errors -std=gnu++17
 
-CXX_FLAGS = -g -arch arm64 -Werror -Wall -Wextra -Wpedantic -pedantic-errors -std=gnu++17
+CXX_FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -Werror -Wall -Wextra -Wpedantic -pedantic-errors -std=gnu++17
 

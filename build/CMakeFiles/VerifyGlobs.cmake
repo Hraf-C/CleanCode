@@ -13,6 +13,8 @@ set(OLD_GLOB
   "/Users/achraflemghari/Documents/IMAC/imac 2/S4/CPP/Projects/gits/CleanCode/src/hangman.cpp"
   "/Users/achraflemghari/Documents/IMAC/imac 2/S4/CPP/Projects/gits/CleanCode/src/hangman.h"
   "/Users/achraflemghari/Documents/IMAC/imac 2/S4/CPP/Projects/gits/CleanCode/src/main.cpp"
+  "/Users/achraflemghari/Documents/IMAC/imac 2/S4/CPP/Projects/gits/CleanCode/src/menu.cpp"
+  "/Users/achraflemghari/Documents/IMAC/imac 2/S4/CPP/Projects/gits/CleanCode/src/menu.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

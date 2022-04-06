@@ -12,7 +12,7 @@ using namespace std;
 std::string secret_word=pick_a_random_word();
 int max_chances=secret_word.length()+3;//give the player number of chance equals number of the word plus 3 chances . 
 char player_guess;
-int num_of_wrong_guesses = 0;
+int num_of_guesses = 0;
 
 const char* pick_a_random_word() 
 {
@@ -52,23 +52,24 @@ int letterFill(char player_guess,string secret_word,string& hashed_word)
       hashed_word[i] = player_guess;
       matches++;
     }
+    
   }
   return matches;
 }
 
 
 
-std::string hashed_word(secret_word.length(), ('_'));
+std::string hashed_word(secret_word.length(),('_'));
 
 
 void play_hangman(){
 
-  std::cout << "\n\n Are you a car lover ! then guess a car brand name";
-  std::cout << "You have " << max_chances << " chances to do so ";
-  std::cout << "-the game rules are simple : type one letter in each try-";
+  std::cout << "\nAre you a car lover !"<< std::endl; 
+  std::cout << "You have " << max_chances << " chances to guess a car brand name "<< std::endl; 
+  std::cout << "*Rules are simple : type one letter in each try*";
   
     
-while (num_of_wrong_guesses < max_chances)
+while (num_of_guesses < max_chances)
   {
     
     std::cout << "\n\n" << hashed_word;       
@@ -77,24 +78,31 @@ while (num_of_wrong_guesses < max_chances)
     if (letterFill(player_guess,secret_word,hashed_word) == 0)
     {
         std::cout << std::endl << "\n Whoops!the names doesn't include that letter !" << std::endl; 
-        num_of_wrong_guesses++;
+        num_of_guesses++;
     }
     else
     {
-      std::cout << endl << "\n Great!You found a letter!" << std::endl; 
+      std::cout << endl << "\n Great!You found a letter!" << std::endl;
+      num_of_guesses++;
     }
-    std::cout << "\n\nYou have " << max_chances - num_of_wrong_guesses<<" chances left" << std::endl; 
+    std::cout << "\n\nYou have " << max_chances - num_of_guesses<<" chances left" << std::endl; 
     if (secret_word == hashed_word)
     {
       std::cout << secret_word << endl; //prints the word selected for the user to guess. 
       std::cout << "\n Yeah! You got it!" << std::endl;
+      std::cout << "\n the word is: " <<  secret_word << std::endl;
+      break;
     }
-
-    if (num_of_wrong_guesses == max_chances) 
+  }
+    if (num_of_guesses == max_chances) 
     {
-    std::cout << "\n\nSorry, you lose." << std::endl;
-    std::cout << "\nhe word was " << secret_word << std::endl;
+    std::cout << "\n\nSorry you have used all of your chances, you lose." << std::endl;
+    std::cout << "\n the word was: " << secret_word << std::endl;
 
     }
- }
+   
+	 cin.ignore();
+	 cin.get();
+	
+ 
   }
