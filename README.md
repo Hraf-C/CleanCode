@@ -27,3 +27,19 @@ This repository is a series of C++ projects, submitted in order to respond to th
 - [x] Finishing **Guess the number** assignment .  
  ![Screenshot Guess the number assignment](https://user-images.githubusercontent.com/25162712/156742995-016ef2af-e80e-4c38-a260-579857b48845.png)
 - [x] Start working on **assignment Hangman**  .  
+
+## 09-03-2022 : TP5
+- [x] Reading Level 2 courses : 
+  -Make it work, then make it good :what a good advice , so many times i find myself overwhelmed and unable to solve a programming assignement ,that is because i limit my thinking to find a solutions that fits to what the corrector expects from me , which make it harder since it is less complicated to improve something that already exists and make it better than redo it from scratch .
+  -
+
+
+## 16-03-2022 : TP6
+
+
+
+## 23-03-2022 : TP7
+
+
+## 06-04-2022 : TP8
+
