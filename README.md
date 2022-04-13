@@ -29,10 +29,9 @@ This repository is a series of C++ projects, submitted in order to respond to th
 - [x] Start working on **assignment Hangman**  .  
 
 ## 09-03-2022 : TP5
-- [x] Reading Level 2 courses : 
-  -Make it work, then make it good :what a good advice , so many times i find myself overwhelmed and unable to solve a programming assignement ,that is because i limit my thinking to find a solutions that fits to what the corrector expects from me , which make it harder since it is less complicated to improve something that already exists and make it better than redo it from scratch .
-  -
-
+- [x] Reading Level 2 courses :   
+  * Make it work, then make it good :what a good advice , so many times i find myself overwhelmed and unable to solve a programming assignement ,that is because i limit my thinking to find a solutions that fits to what the corrector expects from me , which make it harder since it is less complicated to improve something that already exists and make it better than redo it from scratch .
+   *Structs, Free functions and classes :it is simple (it seeems to be for the moment) Use Free Functions like u used to do before u knew about OOP (create plenty of them and call them in main , use them for tests etc ...) , you need to handle a groupe of data ? is this data Public ? use structs , it is not use Classes 
 
 ## 16-03-2022 : TP6
 
