@@ -1,3 +1,0 @@
-/Users/achraflemghari/Documents/IMAC/imac 2/S4/CPP/Projects/gits/CleanCode/build/CMakeFiles/SimpleCpp.dir
-/Users/achraflemghari/Documents/IMAC/imac 2/S4/CPP/Projects/gits/CleanCode/build/CMakeFiles/edit_cache.dir
-/Users/achraflemghari/Documents/IMAC/imac 2/S4/CPP/Projects/gits/CleanCode/build/CMakeFiles/rebuild_cache.dir
