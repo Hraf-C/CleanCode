@@ -31,3 +31,26 @@ void get_input(T& choice)
     std::cin.clear();
     std::cin.ignore(INT_MAX,'\n');
 }
+
+template<typename T>
+T test_input()
+{
+    T input;
+    std::cin >> std::setw(1) >> input ; //ignoring everything after space
+
+    //Error check
+    while (!std::cin.good())
+    {
+        std::cout << " Invalid input! please try again ."<< std::endl;
+
+        std::cin.clear();
+        std::cin.ignore(INT_MAX,'\n');
+
+        std::cout << "- Enter a Choice: ";
+        std::cin >> std::setw(1) >> input ;
+
+    }
+    std::cin.clear();
+    std::cin.ignore(INT_MAX,'\n');
+    
+}

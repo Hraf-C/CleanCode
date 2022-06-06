@@ -8,12 +8,6 @@
 
 using namespace std;
 
-
-std::string secret_word=pick_a_random_word();
-int max_chances=secret_word.length()+3;//give the player number of chance equals number of the word plus 3 chances . 
-char player_guess;
-int num_of_guesses = 0;
-
 const char* pick_a_random_word() 
 {
     static constexpr std::array  word_list = { 
@@ -59,10 +53,15 @@ int letterFill(char player_guess,string secret_word,string& hashed_word)
 
 
 
-std::string hashed_word(secret_word.length(),('_'));
+
 
 
 void play_hangman(){
+  std::string secret_word=pick_a_random_word();
+  std::string hashed_word(secret_word.length(),('_'));
+  int max_chances=secret_word.length()+3;//give the player number of chance equals number of the word plus 3 chances . 
+  char player_guess;
+  int num_of_guesses = 0;
 
   std::cout << "\nAre you a car lover !"<< std::endl; 
   std::cout << "You have " << max_chances << " chances to guess a car brand name "<< std::endl; 
