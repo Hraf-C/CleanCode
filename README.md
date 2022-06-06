@@ -36,5 +36,16 @@ This repository is a series of C++ projects, submitted in order to respond to th
 ## Rest of TPs
 - [x] Finishing **Hangman** assignment .
 - [x] Finish reading Level 2 courses :
- * Enums:enum and enum class, a good solution to use with 'switch' to avoid using meaningless integers to indicate an option. i wanted to use it with the switch i used to create Menu and game hardness choises but i think it's easer to control a user input when they have to enter a single number to make a choise than entring a string of characters .
-- [x] Fixing a bug after getting Jules' feedback : i used a global variable who supposes to genirate a random name from a list (Guess the number assignement) . problem : same word will be associated to the varible until we close the console. solution : moved the variables inside the function that give acces to play the game .
+ * Enums:enum and enum class, a good solution to use with 'switch' to avoid using meaningless integers to indicate an option. I wanted to use it with the switch I used to create Menu and game hardness choices but I think it's easier to control a user input when they have to enter a single number to make a choice than entering a string of characters .
+- [x] Fixing a bug after getting Jules' feedback : I used a global variable that is supposed to generate a random name from a list (Guess the number assignment) . problem : same word will be associated with the variable until we close the console. solution : moved the variables inside the function that give access to play the game .
+- [x] start working on Noughts and Crosses :
+ * First difficulty :  
+ 
+- [x] Finishing **Hangman** assignment .
+- [x] Finish reading Level 2 courses :
+ * Enums:enum and enum class, a good solution to use with 'switch' to avoid using meaningless integers to indicate an option. I wanted to use it with the switch I used to create Menu and game hardness choices but I think it's easier to control a user input when they have to enter a single number to make a choice than entering a string of characters .
+- [x] Fixing a bug after getting Jules' feedback : I used a global variable that is supposed to generate a random name from a list (Guess the number assignment) . problem : same word will be associated with the variable until we close the console. solution : moved the variables inside the function that give access to play the game .
+- [x] start working on Noughts and Crosses :
+ * First difficulty (Adding the P6 library to the project) : CMake and Git submodules lessons were a good help to understand how to do so . The problem was that I have a macbook M1 with an integrated graphic card . But fortunately Jules ( the designer of the p6 ) has already thought about that . solution was using the “render-directly-to-screen” Branch.
+
+
