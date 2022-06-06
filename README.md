@@ -47,5 +47,7 @@ This repository is a series of C++ projects, submitted in order to respond to th
 - [x] Fixing a bug after getting Jules' feedback : I used a global variable that is supposed to generate a random name from a list (Guess the number assignment) . problem : same word will be associated with the variable until we close the console. solution : moved the variables inside the function that give access to play the game .
 - [x] start working on Noughts and Crosses :
  * First difficulty (Adding the P6 library to the project) : CMake and Git submodules lessons were a good help to understand how to do so . The problem was that I have a macbook M1 with an integrated graphic card . But fortunately Jules ( the designer of the p6 ) has already thought about that . solution was using the “render-directly-to-screen” Branch.
+- [x] Reading the rest of Lessons and trying to apply what I have learned to write a clean code for the math project : https://github.com/Hraf-C/IMAC-WORRIOR.git
+
 
 
